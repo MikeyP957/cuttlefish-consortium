@@ -1,23 +1,9 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <auth-form (submitted)="createUser($event)" >
+<div style="text-align: center">
+  <h1>Welcome to {{ title }}!</h1>
+  <auth-form (submitted)="createUser($event)">
     <h3>Create Account</h3>
-    <button type="submit">
-      Join us
-    </button>
-  </auth-form>
-  <auth-form 
-    (submitted)="loginUser($event)" >
-    <h3>Login</h3>
-    <auth-remember
-      (checked)="rememberUser($event)" >      
-    </auth-remember>
-    <button type="submit">
-      Login
-    </button>
+    <button type="submit">Join us</button>
   </auth-form>
 </div>
 

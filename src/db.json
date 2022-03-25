@@ -1,8 +1,8 @@
 {
-    "User" :[
-        {
-            "email":"mikeyP@example.com",
-            "password":"password!2"
-        }
-    ]
+  "User": [
+    {
+      "email": "mikeyP@example.com",
+      "password": "password!2"
+    }
+  ]
 }

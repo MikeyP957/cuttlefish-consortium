@@ -1,19 +1,16 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter } from "@angular/core";
 
 @Component({
-  selector: 'auth-remember',
-  templateUrl: './auth-remember.component.html',
-  styleUrls: ['./auth-remember.component.sass']
+  selector: "auth-remember",
+  templateUrl: "./auth-remember.component.html",
+  styleUrls: ["./auth-remember.component.sass"],
 })
 export class AuthRememberComponent {
-
-  constructor() { }
+  constructor() {}
 
   @Output() checked: EventEmitter<boolean> = new EventEmitter<boolean>();
 
   onChecked(value: boolean) {
     this.checked.emit(value);
   }
-
-
 }

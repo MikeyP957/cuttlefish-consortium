@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { AuthRememberComponent } from './auth-remember.component';
+import { AuthRememberComponent } from "./auth-remember.component";
 
-describe('AuthRememberComponent', () => {
+describe("AuthRememberComponent", () => {
   let component: AuthRememberComponent;
   let fixture: ComponentFixture<AuthRememberComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AuthRememberComponent ]
-    })
-    .compileComponents();
+      declarations: [AuthRememberComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('AuthRememberComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
